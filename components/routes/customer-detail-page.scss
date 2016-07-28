@@ -1,0 +1,16 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.container {
+  margin: 0 auto;
+  min-width: 1170px;
+}
+
+.row {
+  width: 1170px;
+  padding: 0 0 10px;
+}
+
+.row + .row {
+  margin-top: 20px;
+}

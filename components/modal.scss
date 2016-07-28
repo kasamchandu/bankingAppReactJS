@@ -1,0 +1,51 @@
+@import 'stylesheets/type.scss';
+@import 'stylesheets/colors.scss';
+
+.modal-wrapper {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 30px;
+  padding-top: 170px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: scroll;
+}
+
+.modal-content {
+  width: 75%;
+  max-width: 1000px;
+  min-width: 1000px;
+  height: auto;
+  margin: auto;
+  z-Index: 100;
+}
+
+.header-wrapper {
+  height: 36px;
+  padding: 0 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid $border-color;
+  height: 36px;
+}
+
+.header-text {
+  flex: 1;
+  color: $card-header-color;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  min-height: 148px;
+}

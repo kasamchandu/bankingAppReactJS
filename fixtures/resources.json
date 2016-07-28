@@ -1,0 +1,29 @@
+{
+  "id": "405cfb1a-818d-41a5-b2a4-58efff426b17",
+  "name": "EP-e0:91:53:ff:fe:98:aa:b0",
+  "sectionId": "2b59c8c7-d221-4081-bde1-5d4183fd4aa0",
+  "customerId": "2dbe001c-f676-4e1b-be75-a8750703027b",
+  "locationId": "bb0bfeba-809c-44e3-b313-26da78694b7d",
+  "serverId": "7fc0801f-29cb-447d-8f25-d19ffc0ad1b4",
+  "xLocation": 417,
+  "yLocation": 215,
+  "udid": "EP-e0:91:53:ff:fe:98:aa:b0",
+  "deviceType": "LUMINAIRE",
+  "createDate": "2016-02-25T20:50:24Z",
+  "capabilities": "[LIGHT, IDENTIFY, BRIGHTNESS, POWER]",
+  "status": "OFFLINE",
+  "brightness": {
+    "level": 66
+  },
+  "power": {
+    "currentWatts": 23897
+  },
+  "light": {
+    "state": "--",
+    "toggle": "--"
+  },
+  "identify": {
+    "identify": "--"
+  },
+  "discovered": 1456433000
+}

@@ -1,0 +1,153 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.container {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.table-container {
+  margin: 0 auto;
+  max-height: 595px;
+  overflow: auto;
+  
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0px 4px;
+  display:block;
+
+  thead{
+  display:block;
+  }
+  tbody{
+  display:block;
+  height:250px;
+  overflow:auto;
+  }
+}
+
+.table-header {
+  margin-bottom: 10px;
+}
+
+.th {
+  padding: 5px;
+  color: $text-color;
+  text-align: left;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+
+  &:first-child {
+    width: 250px;
+    padding-left: 10px;
+  }
+
+  &:nth-child(2n+0) {
+    width: 240px;
+  }
+
+  &:nth-child(3n+0) {
+    width: 240px;
+  }
+
+  &:nth-child(4n+0) {
+    width: 180px;
+  }
+
+  &:last-child {
+    width: 160px;
+  }
+}
+
+.td {
+  padding: 10px 5px;
+  color: $text-color;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  &:first-child {
+    width: 250px;
+    padding-left: 10px;
+  }
+
+  &:nth-child(2n+0) {
+    width: 240px;
+  }
+
+  &:nth-child(3n+0) {
+    width: 240px;
+  }
+
+  &:nth-child(4n+0) {
+    width: 180px;
+  }
+
+  &:last-child {
+    width: 160px;
+  }
+}
+
+.row {
+  background-color: $white;
+  padding: 0 10px;
+
+  &:hover,
+  &.selected:hover {
+    td {
+      color: $white;
+      background-color: $primary-color;
+      cursor: pointer;
+    }
+    td:first-child {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    td:last-child {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+}
+
+.row + .row {
+  margin-top: 10px;
+}
+
+.status-online {
+  width: 8px;
+  height: 8px;
+  background-color: $light-green;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.status-offline {
+  width: 8px;
+  height: 8px;
+  background-color: $red;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.provision {
+  text-align: center;
+}
+
+.provision-link {
+  cursor: pointer;
+  text-align: center;
+  display: block;
+}

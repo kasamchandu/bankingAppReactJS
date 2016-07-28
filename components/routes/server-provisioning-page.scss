@@ -1,0 +1,24 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.header-text {
+  padding: 6px 10px;
+  margin-bottom: 40px;
+  background-color: $smoke;
+  color: $dove-gray;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 1170px;
+}
+
+.row {
+  width: 1170px;
+  padding: 0 0 10px;
+}
+
+.row + .row {
+  margin-top: 20px;
+}
+

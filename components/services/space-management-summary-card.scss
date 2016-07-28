@@ -1,0 +1,28 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.card {
+  background-color: $blend-gray;
+  height: 212px;
+}
+
+.table {
+  width: 100%;
+  cursor: pointer;
+
+  td {
+    padding: 10px 20px;
+  }
+
+  td:last-child{
+    text-align:right;
+  }
+}
+
+.label {
+  color: $dusty-gray;
+}
+
+.value {
+  color: $light-blue;
+}

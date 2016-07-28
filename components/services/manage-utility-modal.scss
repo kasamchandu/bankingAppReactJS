@@ -1,0 +1,36 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.container {
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+.updates-content { 
+  width: 100%;
+  color: $dove-gray;
+}
+
+.btn-wrapper { 
+  text-align: center;
+  margin-top: 100px;
+}
+
+.close-btn {
+  width: 200px;
+  color: $primary-inverse-color;
+  background-color: $primary-color;
+  font-size: $regular-font-size;
+  height: 30px;
+  padding: 3px 12px;
+
+  &:hover {
+    color: $primary-inverse-color;
+  }
+
+  &:focus,
+  &:active {
+    color: $primary-inverse-color;
+  }
+}

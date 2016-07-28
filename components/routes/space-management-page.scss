@@ -1,0 +1,64 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.container {
+  margin: 0 auto;
+  min-width: 1170px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.card {
+  background-color: $blend-gray;
+  height: 212px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.slideshow-container {
+  position: relative;  
+}
+
+.slideshow {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  position: relative;
+  white-space: nowrap;
+  margin: 0 -15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.slide {
+  display: inline-block;
+  width: 33.3%;
+  padding: 4px 15px;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate3d(-50%, -50%, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate3d(50%, -50%, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}

@@ -1,0 +1,43 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.container {
+  margin: 0 auto;
+  color: $dusty-gray;
+  min-width: 1170px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.row {
+  padding: 0 0 10px;
+}
+
+.row + .row {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: $blend-gray;
+  height: 212px;
+}
+
+.utility-container {
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+ }
+
+.link {
+  margin-top: 50px;
+  color: $primary-color;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo {
+  width: 170px;
+  margin: 0 auto;
+}

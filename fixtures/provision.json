@@ -1,0 +1,102 @@
+[
+  {
+    "id":1,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"Name of Location",
+    "date":"25-04-2016",
+    "status":"Online",
+    "Type":"unprovision",
+    "val":true
+  },
+  {
+    "id":2,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"New york",
+    "date":"20-04-2016",
+    "status":"Online",
+    "Type":"provision",
+    "val":true
+  },
+  {
+    "id":3,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"Alabama",
+    "date":"25-04-2016",
+    "status":"Offline",
+    "Type":"provision",
+    "val":false
+  },
+  {
+    "id":4,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"Mississippi",
+    "date":"25-04-2016",
+    "status":"Online",
+    "Type":"unprovision",
+    "val":true
+  },
+  {
+    "id":5,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"New Mexico",
+    "date":"25-04-2016",
+    "status":"Offline",
+    "Type":"provision",
+    "val":false
+  },
+  {
+    "id":6,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"Texas",
+    "date":"25-04-2016",
+    "status":"Online",
+    "Type":"provision",
+    "val":true
+  },
+  {
+    "id":7,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"Alaska",
+    "date":"25-04-2016",
+    "status":"Offline",
+    "Type":"unprovision",
+    "val":false
+  },
+  {
+    "id":8,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"Nebraska",
+    "date":"25-04-2016",
+    "status":"Offline",
+    "Type":"unprovision",
+    "val":true
+  },
+  {
+    "id":9,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"Colorado",
+    "date":"25-04-2016",
+    "status":"Offline",
+    "Type":"provision", 
+    "val":true
+  },
+  {
+    "id":10,
+    "server":"Litecom",
+    "macaddress":"MAC: 00-00-00-00-00-00",
+    "location":"Texas",
+    "date":"25-04-2016",
+    "status":"Offline",
+    "Type":"unprovision",
+    "val":false
+  }
+]

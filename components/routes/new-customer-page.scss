@@ -1,0 +1,9 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.header-text {
+  padding: 6px 10px;
+  margin-bottom: 40px;
+  background-color: $smoke;
+  color: $dove-gray;
+}

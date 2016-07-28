@@ -1,0 +1,115 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+@define-mixin btn {
+  height: 34px;
+  padding: 6px 12px;
+  color: $primary-inverse-color;
+  background-color: $dusty-gray;
+  font-size: $regular-font-size;
+  &:hover {
+    color: $primary-inverse-color;
+  }
+
+  &:focus,
+  &:active {
+    color: $primary-inverse-color;
+  }
+}
+
+.form {
+  width: 100%;
+  padding-right: 50px;
+}
+
+.image-container {
+  padding: 5% 0;
+  text-align: center;
+}
+
+.profile-image {
+  margin: 0 auto;
+  width: 280px;
+  height: 280px;
+  border: 1px solid $blue;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: $primary-color;
+  font-size: $small-font-size;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.form-group {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  margin: 0;
+  padding: 0px;
+  font-size: $regular-font-size;
+  font-weight: 400;
+  color: $dove-gray;
+  border-bottom: 1px solid $dove-gray;
+}
+
+.label {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: $small-font-size;
+  color: $label-color;
+}
+
+.field {
+  width: 95%;
+  color: $input-color;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid $blue;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: $medium-font-size;
+
+  &:focus {
+    border-radius: 0px;
+    box-shadow: none;
+  }
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  margin-top: 155px;
+  padding: 15px 0 0;
+  text-align: right;
+}
+
+.cancel-btn {
+  @mixin btn;
+  width: 50%;
+}
+
+.save-btn {
+  @mixin btn;
+  width: 50%;
+  margin-left: 2%;
+  background-color: $primary-color;
+}
+
+.file {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -5000px;
+}

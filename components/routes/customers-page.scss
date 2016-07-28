@@ -1,0 +1,31 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.header {
+  font-size: $large-font-size;
+  color: $dusty-gray;
+  margin: 0 auto 30px;
+  text-align: center;
+  font-family: $light-font-family;
+}
+
+.container {
+  min-width: 1170px;
+  margin: auto;
+}
+
+.image-wrapper {
+  flex: 1;
+  width: 100%;
+  cursor: pointer;
+  margin: auto;
+}
+
+.plus-btn {
+  width: 85px;
+  height: 85px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin: auto;
+}

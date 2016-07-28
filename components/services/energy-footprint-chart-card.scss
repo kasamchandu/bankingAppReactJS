@@ -1,0 +1,21 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.card {
+  background-color: $blend-gray;
+  height: 212px;
+}
+
+.chart-container {
+  width: 100%;
+  margin: 0 auto;
+
+  :global(.arc) text {
+    display: none;
+  }
+}
+
+.legend {
+  color: $legend-color;
+  background-color: transparent !important;
+}

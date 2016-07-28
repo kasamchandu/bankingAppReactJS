@@ -1,0 +1,128 @@
+@import '../type.scss';
+@import '../colors.scss';
+
+$primary-color: #626262;
+$secondary-color: #f9b700;
+
+$text-color: $primary-color;
+$input-color: $primary-color;
+$link-color: $black;
+$link-hover-color: $black;
+
+$border-color: $black;
+
+/** Link **/
+a:active,
+a:focus,
+a:hover {
+  color: $link-hover-color !important;
+  cursor: pointer;
+}
+
+span.link,
+div.link,
+a.link {
+  color: $link-color;
+}
+
+/** button **/
+button.btn-primary {
+  background-color: $primary-color;
+  color: $primary-inverse-color;
+
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $secondary-color;
+    color: $text-color;
+  }
+
+  &[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+}
+
+/** form **/
+input.field {
+  border-bottom: 1px solid $primary-color;
+
+  &:active,
+  &:focus,
+  &:hover {
+    border-bottom: 1px solid $primary-color;
+  }
+}
+
+/** border **/
+.box {
+  border: 1px solid $border-color;
+}
+
+/** table **/
+td.value-cell {
+  color: $text-color;
+}
+
+/** <SideMenu> **/
+div.side-menu--profile {
+  background-color: $secondary-color;
+  color: $text-color;
+}
+
+.side-menu--link {
+  color: $primary-color;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $secondary-color !important;
+  }
+}
+
+/** <Location> **/
+div.location {
+  &:hover {
+    background-color: $primary-color;
+  }
+
+  .arrow {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/** <ServersListCard> **/
+tr.table-row {
+  &:hover,
+  &.table-row--selected:hover {
+    td {
+      color: $white;
+      background-color: $secondary-color;
+    }
+  }
+
+  &.table-row--selected {
+    td {
+      color: $white;
+      background-color: $primary-color;
+    }
+  }
+}
+
+/** <ProfileModal> **/
+div.profile-modal--image {
+  border: 1px solid $border-color;
+}
+
+/** <ChartCard> **/
+div.chart-bg {
+  background-color: $dove-gray;
+}

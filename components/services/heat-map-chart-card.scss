@@ -1,0 +1,28 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.card {
+  min-height: 400px;
+  height: auto;
+  background-color: $blend-gray;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.heatmap {
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

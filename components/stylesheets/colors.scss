@@ -1,0 +1,46 @@
+/**
+ * colors.scss
+ * All colors subject to branding should be defined here.
+ */
+
+/* color palette */
+$white: #fff;
+$black: #000;
+$gray: #ccc;
+$dusty-gray: #999;
+$dove-gray: #666;
+$light-gray: #f3f3f3;
+$bright-gray: #f5f5f5;
+$blend-gray: #f7f7f7;
+$shadow-gray: #ececec;
+$shadow: #ADADAD;
+$smoke: #ececec;
+$light-blue: #3399cc;
+$dark-blue: #003b5d;
+$blue: #009ee0;
+$light-red: #ff0000;
+$red: #de0000;
+$light-green: #00cc00;
+$green: #0c9d3f;
+
+/* branding */
+$primary-color: $blue;
+$primary-inverse-color: $white;
+$secondary-color: $blue;
+$danger-color: $red;
+
+$legend-color: #AAA;
+$text-color: $dove-gray;
+$label-color: $gray;
+$input-color: $dove-gray;
+
+$link-color: $blue;
+$link-hover-color: $blue;
+
+$border-color: $gray;
+$shadow-color: $shadow;
+
+$page-background-color: $bright-gray;
+$card-header-color: $dove-gray;
+$card-header-subtext-color: $primary-color;
+$paper-background-color: $white;

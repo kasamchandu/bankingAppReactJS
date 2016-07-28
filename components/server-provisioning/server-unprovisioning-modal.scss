@@ -1,0 +1,49 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.container {
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+.unprovision-content { 
+  width: 100%;
+  color: $dove-gray;
+}
+
+.btn-container {
+  margin-top: 60px;
+  padding: 15px 0 0;
+  text-align: right;
+}
+
+@define-mixin btn {
+  height: 34px;
+  padding: 6px 12px;
+  color: $primary-inverse-color;
+  background-color: $dusty-gray;
+  font-size: $regular-font-size;
+  &:hover {
+    color: $primary-inverse-color;
+  }
+
+  &:focus,
+  &:active {
+    color: $primary-inverse-color;
+  }
+}
+
+.cancel-btn {
+  @mixin btn;
+  width: 24%;
+  margin-top: 2%;
+}
+
+.save-btn {
+  @mixin btn;
+  width: 24%;
+  margin-left: 2%;
+  background-color: $primary-color;
+  margin-top: 2%;
+}

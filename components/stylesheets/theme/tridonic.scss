@@ -1,0 +1,6 @@
+@import '../type.scss';
+@import '../colors.scss';
+
+button[disabled] {
+  cursor: not-allowed;
+}

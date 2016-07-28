@@ -1,0 +1,53 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+@define-extend hint {
+  position: absolute;
+  bottom: 100%;
+  min-width: 150px;
+  padding: 5px 10px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1000000;
+  transform: translate3d(-50%, -50px, 0);
+  transition: .2s ease;
+  transition-delay: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: $white;
+  border-radius: 6px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.pin {
+  transform: translate3d(-50%, -50%, 0);
+  transition: transform 0.3s ease;
+}
+
+.active {
+  transform: scale(2) translate3d(-25%, -50%, 0);
+  transition: transform 0.3s ease;
+}
+
+.hint {
+  @extend hint;
+}
+
+.hint-active {
+  @extend hint;
+  visibility: visible;
+  opacity: 1;
+  transform: translate3d(-50%, -70px, 0);
+  transition-delay: 0;
+}
+
+.name {
+  height: 20px;
+  font-size: 17px;
+}
+
+.address {
+  height: 20px;
+  font-size: 15px;
+}

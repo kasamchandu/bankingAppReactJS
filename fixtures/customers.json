@@ -1,0 +1,150 @@
+[
+  {
+    "id": "12ec6e82520c0a8c015210b7a21b0027",
+    "name": "Zumtobel Lighting",
+    "imgSrc": "/images/icn_zumtobel_logo.jpg",
+    "locations": [
+      {
+        "id": 1,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_regus_building.png"
+      },
+      {
+        "id": 2,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_regus_building2.png"
+      }
+    ]
+  },
+  {
+    "id": "12ec6e82520c0a8c015210b89ead0028",
+    "name": "FAGERHULT",
+    "imgSrc": "/images/icn_fagerhult_logo.jpg",
+    "locations": [
+      {
+        "id": 3,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_regus_building.png"
+      },
+      {
+        "id": 4,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_regus_building2.png"
+      },
+      {
+        "id": 5,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      },
+      {
+        "id": 6,
+        "name": "Location Person",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      }
+    ]
+  },
+  {
+    "id": "12ec6e82520c0a8c015210b990aa0029",
+    "name": "SPAR",
+    "imgSrc": "/images/icn_spar_logo.jpg",
+    "locations": [
+      {
+        "id": 7,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_regus_building.png"
+      },
+      {
+        "id": 8,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_regus_building2.png"
+      },
+      {
+        "id": 9,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      },
+      {
+        "id": 10,
+        "name": "Location Person",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      },
+      {
+        "id": 11,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      }
+    ]
+  },
+  {
+    "id": "12ec6e82520c0a8c015210ba296a002a",
+    "name": "Regus",
+    "imgSrc": "/images/icn_regus_logo.jpg",
+    "locations": [
+      {
+        "id": 12,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_regus_building.png"
+      },
+      {
+        "id": 13,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_regus_building2.png"
+      },
+      {
+        "id": 14,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      },
+      {
+        "id": 15,
+        "name": "Location Person",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      },
+      {
+        "id": 16,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      },
+      {
+        "id": 17,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      },
+      {
+        "id": 18,
+        "name": "Location Thing",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      },
+      {
+        "id": 19,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      },
+      {
+        "id": 20,
+        "name": "Location Name",
+        "address": "Street Name, City Name",
+        "picture": "/images/icn_HPH3_building.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Regus",
+    "address": "5353 Irvine Blvd, Irvine CA 92688",
+    "installDate": "12.11.14",
+    "lastServiceDate": "20.10.15",
+    "floors": 4,
+    "sections": 3,
+    "servers": 3,
+    "devices": 2380,
+    "contact": {
+      "id": 1,
+      "name": "Jurgen Auckerman",
+      "email": "Jurgen.Auckerman@tridonic.com",
+      "phone": "(949) 555 1212",
+      "imgSrc": "/images/default-profile.png"
+    }
+  }
+]

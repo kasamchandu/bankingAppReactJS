@@ -1,0 +1,17 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.container {
+  margin: 0 auto;
+  height: 400px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.header {
+  font-size: $large-font-size;
+  color: $dusty-gray;
+  margin: 0 auto 30px;
+  text-align: center;
+  font-family: $light-font-family;
+}

@@ -1,0 +1,20 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.card {
+  background-color: $blend-gray;
+  height: 212px;
+}
+
+.container {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.floorplan {
+  width: 168px;
+  height: 120px;
+  margin: 0 auto;
+}

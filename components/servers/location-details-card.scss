@@ -1,0 +1,85 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.location-details-container {
+  display: block;
+  width: 100%;
+}
+
+.location-image {
+  display: flex;
+}
+
+.image {
+  width: 260px;
+  height: 155px;
+}
+
+.install-detail {
+  width: 30%;
+  float: right;
+  padding-left: 10px;
+  text-align: right;
+
+  > label {
+    width: 100%;
+    color: $dove-gray;
+    clear: both;
+    margin-bottom: 0px;
+  }
+}
+
+.address {
+  color: $primary-color;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.location-content {
+  width: 47%;
+  float: left;
+  padding-left: 10px;
+  color: $dove-gray;
+
+  > label {
+    width: 100%;
+    clear: both;
+    margin: 0px;
+  }
+
+  > ul {
+    padding: 0px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+
+    > li {
+      list-style-type: none;
+    }
+  }
+}
+
+.location-details-container {
+  display: block;
+}
+
+.update-btn-container {
+  margin-top: 20px;
+}
+
+.update-btn {
+  color: $primary-inverse-color;
+  background-color: $primary-color;
+  font-size: $regular-font-size;
+  height: 30px;
+  padding: 3px 12px;
+
+  &:hover {
+    color: $primary-inverse-color;
+  }
+
+  &:focus,
+  &:active {
+    color: $primary-inverse-color;
+  }
+}

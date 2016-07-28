@@ -1,0 +1,62 @@
+@import '../stylesheets/type.scss';
+@import '../stylesheets/colors.scss';
+
+.location {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $primary-color;
+
+    .name,
+    .address {
+      color: $primary-inverse-color;
+    }
+  }
+}
+
+.image {
+  width: 130px;
+  height: 70px;
+  padding: 0px 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.name {
+  width: 100%;
+  color: $dove-gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.address {
+  width: 100%;
+  font-family: $light-font-family;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: $dusty-gray;
+}
+
+.action {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrow {
+  width: 20px;
+}

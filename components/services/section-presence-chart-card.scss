@@ -1,0 +1,40 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.card {
+  background-color: $blend-gray;
+  min-height: 212px;
+}
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  svg {
+    position: relative;
+  }
+
+  :global(.tick) {
+    line {
+      stroke: $legend-color !important;
+    }
+    text {
+      fill: $legend-color;
+    }
+  }
+}
+
+.bg {
+  position: absolute;
+  background-color: #1C8BBA;
+}
+
+.axis {
+  line {
+    stroke: $legend-color !important;
+  }
+  text {
+    fill: $legend-color;
+  }
+}

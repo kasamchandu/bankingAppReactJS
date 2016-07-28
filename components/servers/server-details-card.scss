@@ -1,0 +1,79 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.server-details-list {
+  flex: 3;
+  display: flex;
+  color: $dove-gray;
+}
+
+.servers-details-title {
+  font-family: $medium-font-family;
+  padding-left: 40px;
+  margin: 12px 0;
+  display: block;
+}
+
+.server-api {
+  > td {
+    padding: 5px 40px;
+  }
+}
+
+.btn-wrapper {
+  flex: 2;
+  margin-top: 6px;
+}
+
+.btn-list {
+  list-style-type: none;
+  padding: 0px 5%;
+  align-content: flex-end;
+}
+
+.btn {
+  width: 100%;
+  color: $primary-inverse-color;
+  background-color: $primary-color;
+  font-size: $regular-font-size;
+  height: 30px;
+  padding: 3px 12px;
+  opacity: 0.5;
+  border: none;
+  margin-top: 4px;
+  display: inline-block;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  touch-action: manipulation;
+  cursor: not-allowed;
+  font-weight: 400;
+  line-height: 1.43;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: $white;
+  text-align: left;
+  outline: none;
+
+  &:hover {
+    color: $primary-inverse-color;
+  }
+
+  &:focus,
+  &:active {
+    color: $primary-inverse-color;
+  }
+
+  > img {
+    width: 26px;
+    margin-right: 10px;
+    text-align: left;
+  }
+}
+

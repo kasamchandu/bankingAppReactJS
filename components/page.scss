@@ -1,0 +1,8 @@
+@import 'stylesheets/colors.scss';
+
+.page {
+  flex: 1;
+  padding-bottom: 30px;
+  overflow: auto;
+  background-color: $page-background-color;
+}

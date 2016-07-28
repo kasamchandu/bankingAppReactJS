@@ -1,0 +1,46 @@
+@import 'stylesheets/type.scss';
+@import 'stylesheets/colors.scss';
+
+.header-wrapper {
+  height: 36px;
+  padding: 0 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid $border-color;
+  height: 36px;
+}
+
+.header-text {
+  flex: 1;
+  color: $card-header-color;
+}
+
+.header-subtext {
+  flex: 1;
+  color: $card-header-subtext-color;
+  margin-left: 10px;
+}
+
+.icon {
+  width: 18px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.action {
+  width: auto;
+  color: $card-header-color;
+}
+
+.body {
+  flex: 1;
+
+  display: flex;
+  padding: 10px;
+  min-height: 148px;
+}

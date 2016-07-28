@@ -1,0 +1,15 @@
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/type.scss';
+
+.container {
+  margin: auto;
+  min-width: 1170px;
+}
+
+.row + .row {
+  margin-top: 20px;
+
+  &.row:last-child {
+    margin-bottom: 20px;
+  }
+}
